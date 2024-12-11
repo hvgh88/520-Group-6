@@ -1,0 +1,202 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #800000;
+  background-image: url('/Users/sai/Desktop/project/mass-hangout-frontend-working_branch 2/src/Pages/Home/bg.png'); /* Background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 20px; 
+}
+
+.login-container {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 900px; 
+  max-width: 100%; 
+  z-index: 10;
+  position: relative;
+}
+
+
+.login-left {
+  background-color: #ffffff;
+  color: #2c2c2c;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-left h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.login-left p {
+  margin-bottom: 30px;
+}
+
+.mascot {
+  width: 250px; 
+  height: auto;
+}
+
+
+.vertical-line {
+  background-color: #a4a3a3;
+  width: 1px;
+  height: auto; 
+  
+}
+
+.login-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+
+.login-right h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.remember-forgot label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.9em;
+}
+
+.remember-forgot a {
+  font-size: 0.9em;
+  text-decoration: none;
+  color: #e63946;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.btn-login {
+  background-color: #e63946;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn-login:hover {
+  background-color: #d62828;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+p a {
+  color: #e63946;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.remember-forgot label {
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+  font-size: 0.9em;
+  cursor: pointer; 
+}
+
+.remember-forgot input[type="checkbox"] {
+  appearance: none; 
+  width: 18px;
+  height: 18px;
+  border: 2px solid #e63946; 
+  border-radius: 4px; 
+  display: inline-block;
+  vertical-align: middle;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.remember-forgot input[type="checkbox"]:checked {
+  background-color: #e63946; 
+  border-color: #d62828; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.remember-forgot input[type="checkbox"]:checked::after {
+  content: "✓"; 
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+

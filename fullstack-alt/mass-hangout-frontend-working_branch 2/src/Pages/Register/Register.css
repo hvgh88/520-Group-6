@@ -1,0 +1,98 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f5f5f5;
+  background-image: url('/Users/sai/Desktop/project/mass-hangout-frontend-working_branch 2/src/Pages/Home/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.register-container {
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  width: 100%; 
+  max-width: 400px; 
+  padding: 30px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left; 
+}
+
+label {
+  font-weight: bold; 
+  margin-bottom: 5px; 
+  font-size: 1em; 
+  color: #333; 
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1em;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #800000;
+  box-shadow: 0 0 4px rgba(128, 0, 0, 0.3);
+}
+
+.btn-register {
+  background-color: #800000;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-register:hover {
+  background-color: #a00000;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+
+p a {
+  color: #800000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+  .register-container {
+    padding: 20px; 
+  }
+}
