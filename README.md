@@ -44,7 +44,7 @@ b. `docker run -p 9200:9200 -e "discovery.type=single-node" \
 3. Verify the logs of chat-app and ElasticSearch image to ensure there are no errors
 
 ### Video Demo Link
-https://drive.google.com/file/d/1hpBcZMRFwiqYbeuLM5V3iQtet0e2aj26/view
+[Link](https://drive.google.com/file/d/1P4NJJcGvSgjgb7j4wXQkQFdlVKuBQBua/view?usp=sharing)
 
 
 
